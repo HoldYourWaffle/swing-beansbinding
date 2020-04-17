@@ -22,6 +22,7 @@ package org.jdesktop.beansbinding;
  *
  * @param <S> the type of source object that this {@code Property} operates on
  * @param <V> the type of value that this {@code Property} represents
+ * @see SourcelessProperty
  *
  * @author Shannon Hickey
  */
