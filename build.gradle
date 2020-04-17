@@ -10,3 +10,7 @@ repositories {
 dependencies {
     testImplementation 'junit:junit:3.8.2'
 }
+
+javadoc {
+	options.addStringOption('Xdoclint:none', '-quiet')
+}
