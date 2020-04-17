@@ -1,11 +1,22 @@
 # Beans Binding (JSR 295)
 
-> This repo is a clone of the original SVN repo at https://java.net/projects/beansbinding/.  
-> It is here for **archiving only** because the java.net forge will be discontinued soon.
+This is a fork of a [clone](https://github.com/JFormDesigner/swing-beansbinding) of the original SVN repo.
+This fork provides the same code with a [Gradle](https://gradle.org/) project structure to support usage with [Jitpack.io](https://jitpack.io/#HoldYourWaffle/swing-beansbinding) like this:
+
+```gradle
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.HoldYourWaffle:swing-beansbinding:master-SNAPSHOT'
+}
+```
 
 ## Links
 
 - https://jcp.org/en/jsr/detail?id=295
+- https://jitpack.io/
 
 ## License
 
